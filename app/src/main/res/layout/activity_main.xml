@@ -10,7 +10,7 @@
     android:background="@color/bgColor">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textLine1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -24,5 +24,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.055"/>
 
+    <TextView
+        android:id="@+id/textLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:padding="10dp"
+        android:background="@color/textBlue"
+        android:textColor="@color/textBg"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
 
+    <TextView
+        android:id="@+id/textLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/textBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12sp"
+        android:backgroundTint="@color/btnBgColor"
+        android:textColor="@color/white"
+        android:text="SELECT DOB"
+        android:textSize="15sp"/>
+    
 </LinearLayout>
