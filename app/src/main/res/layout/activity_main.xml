@@ -54,5 +54,5 @@
         android:textColor="@color/white"
         android:text="SELECT DOB"
         android:textSize="15sp"/>
-    
+
 </LinearLayout>
