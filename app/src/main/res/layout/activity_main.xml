@@ -54,15 +54,15 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/btnBgColor"
         android:textColor="@color/white"
-        android:text="SELECT DOB"
+        android:text="CLICK ME TO SELECT DOB"
         android:textSize="15sp"/>
 
     <TextView
         android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24sp"
-        android:text="15.09.2003"
+        android:layout_marginTop="30sp"
+        android:text="-"
         android:textColor="@color/textBlue"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -82,21 +82,21 @@
         android:id="@+id/textLine6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24sp"
+        android:layout_marginTop="60sp"
         android:text="YOU ARE"
         android:padding="5dp"
-        android:background="@color/white"
+
         android:textColor="@color/lightgray"
         android:textSize="20sp"
         android:textStyle="bold"
         android:fontFamily="monospace"/>
 
     <TextView
-        android:id="@+id/minutes"
+        android:id="@+id/tvMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16sp"
-        android:text="1444000"
+        android:text="-"
         android:textColor="@color/textBlue"
         android:textSize="30sp"
         android:textStyle="bold"/>
@@ -108,7 +108,7 @@
         android:layout_marginTop="16sp"
         android:text="MINUTES OLD!!"
         android:padding="5dp"
-        android:background="@color/white"
+
         android:textColor="@color/lightgray"
         android:textSize="20sp"
         android:textStyle="bold"
