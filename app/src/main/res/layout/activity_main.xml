@@ -47,12 +47,71 @@
         android:textStyle="bold"/>
 
     <Button
+        android:id="@+id/btnDatepicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="12sp"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/btnBgColor"
         android:textColor="@color/white"
         android:text="SELECT DOB"
         android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:text="15.09.2003"
+        android:textColor="@color/textBlue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textLine4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="SELECTED DATE"
+        android:textColor="@color/lightgray"
+        android:textSize="20sp"
+        android:textStyle=""
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/textLine6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:text="YOU ARE"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:textColor="@color/lightgray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="1444000"
+        android:textColor="@color/textBlue"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textLine5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="MINUTES OLD!!"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:textColor="@color/lightgray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
 
 </LinearLayout>
